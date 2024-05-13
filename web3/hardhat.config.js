@@ -36,7 +36,7 @@ module.exports = {
     defaultNetwork: "sepolia",
     networks: {
       hardhat: {},
-      goerli: {
+      sepolia: {
         url: "https://rpc.ankr.com/eth_goerli",
         accounts: [`ox${process.env.PRIVATE_KEY}`],
       },
