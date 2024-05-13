@@ -37,7 +37,6 @@ module.exports = {
     networks: {
       hardhat: {},
       sepolia: {
-        chainId: 11155111,
         url: "https://rpc.ankr.com/eth_goerli",
         accounts: [`ox${process.env.PRIVATE_KEY}`],
       },
